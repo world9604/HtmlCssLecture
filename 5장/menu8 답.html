@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+	 /*스타일 리셋 초기화*/
+		*{margin:0; padding:0;}
+		a{text-decoration:none; color:#000;}
+		ul, li{list-style:none;}
+		
+		/*전체영역*/
+		#wrap{}
+		header{overflow:hidden; min-height:300px;}
+		/*min-height:300px은 300px부터 커지는 것 max-height:300px은 300px까지만 커지는 것*/
+		header:before{content:''; display:block; width:100%; height:1px; background:#ccc; position:absolute; top:40px; left:0;}
+		.sub_contents{}
+		.main_cont{width:1100px; margin:0 auto;  position:relative;}
+		/*전체를 가운데 정렬을 하기 위해서 새로 만든 div이다*/
+		
+		/*로고*/
+		header .logo{position:absolute; top:0; left:0;}
+		header .logo h1{}
+		header .logo h1 a{display:block; font-size:1rem; color:#000; font-weight:800;}
+				
+		/*sns*/
+		header .sns{position:absolute; top:0; right:0;}
+		header .sns a{display:block; font-size:1rem; color:#000; font-weight:800;}
+		
+		/*sns와 logo를 위로 올리기 위하여 position:absolute를 주었고 로고는 왼쪽 정렬을 위해 left sns는 오른쪽 정렬을 위하여 right를 주었다*/
+		
+		/*네비*/
+		header nav{}
+		header nav > ul{text-align:center;}
+		header nav > ul > li{display:inline-block;}
+		header nav > ul > li > a{display:block; padding:10px 40px; font-weight:700; color:#000;}
+		/*header의 직계자손이 아니라서 header와 nav 사이에 >를 쓰지 않는다*/
+		
+		/*두번째 뎁스*/
+		header nav > ul{position:relative;}
+		header nav .sub{position:absolute; top:41px; left:-50%; width:200%; height:0px; overflow:hidden; transition:all 0.2s; background:#7ea;}
+		/*height가 160px로 늘어날 예정*/
+		header nav .sub .sub_contents{width:800px; margin:0 auto; text-align:left;}
+		header nav .sub .sub_contents ul{}
+		header nav .sub .sub_contents ul li{}
+		header nav .sub .sub_contents ul li a{display:block; padding-left:25px; padding-bottom:5px; padding-top:5px;}
+		header nav ul ul{display:inline-block; width:130px;}
+		/*브랜드 이미지*/
+		header nav ul .brand{display:inline-block; width:500px;}
+		
+		/*hover*/
+		header nav > ul > li:hover > a + .sub{height:160px; border-bottom:1px solid ;}
+	</style>
+</head>
+<body>
+	<div id="wrap">
+		<header>
+		<div class="main_cont">
+		<!--logo-->
+			<div class="logo">
+				<h1>
+					<a href="#">logo</a>
+				</h1>
+			</div>
+			<!--//logo-->
+			<nav>
+				<ul>
+					<!--첫번째-->
+					<li>
+						<a href="#">1depth</a>
+						<div class="sub">
+							<div class="sub_contents">
+								<ul>
+									<li>
+										<a href="#">2depth</a>
+									</li>
+									<li>
+										<a href="#">2depth</a>
+									</li>
+									<li>
+										<a href="#">2depth</a>
+									</li>
+									<li>
+										<a href="#">2depth</a>
+									</li>
+								</ul>
+								<!--브랜드이미지-->
+								<div class="brand">
+								menu1 brand img
+								</div>
+								<!--//브랜드 이미지-->
+							</div>
+						</div>
+					</li>
+					<li>
+						<a href="#">1depth</a>
+						<div class="sub">
+							<div class="sub_contents">
+								<ul>
+									<li>
+										<a href="#">2depth</a>
+									</li>
+									<li>
+										<a href="#">2depth</a>
+									</li>
+									<li>
+										<a href="#">2depth</a>
+									</li>
+									<li>
+										<a href="#">2depth</a>
+									</li>
+								</ul>
+								<!--브랜드이미지-->
+								<div class="brand">
+								menu2 brand img
+								</div>
+								<!--//브랜드 이미지-->
+							</div>
+						</div>
+					</li>
+					<li>
+						<a href="#">1depth</a>
+						<div class="sub">
+							<div class="sub_contents">
+								<ul>
+									<li>
+										<a href="#">2depth</a>
+									</li>
+									<li>
+										<a href="#">2depth</a>
+									</li>
+									<li>
+										<a href="#">2depth</a>
+									</li>
+									<li>
+										<a href="#">2depth</a>
+									</li>
+								</ul>
+								<!--브랜드이미지-->
+								<div class="brand">
+								menu3 brand img
+								</div>
+								<!--//브랜드 이미지-->
+							</div>
+						</div>
+					</li>
+					<li>
+						<a href="#">1depth</a>
+						<div class="sub">
+							<div class="sub_contents">
+								<ul>
+									<li>
+										<a href="#">2depth</a>
+									</li>
+									<li>
+										<a href="#">2depth</a>
+									</li>
+									<li>
+										<a href="#">2depth</a>
+									</li>
+									<li>
+										<a href="#">2depth</a>
+									</li>
+								</ul>
+								<!--브랜드이미지-->
+								<div class="brand">
+								menu4 brand img
+								</div>
+								<!--//브랜드 이미지-->
+							</div>
+						</div>
+					</li>
+					<!--//네번째-->
+					
+					<!--다섯번째-->
+					<li>
+						<a href="#">1depth</a>
+						<div class="sub">
+							<div class="sub_contents">
+								<ul>
+									<li>
+										<a href="#">2depth</a>
+									</li>
+									<li>
+										<a href="#">2depth</a>
+									</li>
+									<li>
+										<a href="#">2depth</a>
+									</li>
+									<li>
+										<a href="#">2depth</a>
+									</li>
+								</ul>
+								<!--브랜드이미지-->
+								<div class="brand">
+								menu5 brand img
+								</div>
+								<!--//브랜드 이미지-->
+							</div>
+						</div>
+					</li>
+					<!--//다섯번째-->
+					
+					<!--여섯번째-->
+					<li>
+						<a href="#">1depth</a>
+						<div class="sub">
+							<div class="sub_contents">
+								<ul>
+									<li>
+										<a href="#">2depth</a>
+									</li>
+									<li>
+										<a href="#">2depth</a>
+									</li>
+									<li>
+										<a href="#">2depth</a>
+									</li>
+									<li>
+										<a href="#">2depth</a>
+									</li>
+								</ul>
+								<!--브랜드이미지-->
+								<div class="brand">
+								menu6 brand img
+								</div>
+								<!--//브랜드 이미지-->
+							</div>
+						</div>
+					</li>
+					<!--//여섯번째-->
+				</ul>
+			</nav>
+			<!--sns-->
+			<div class="sns">
+				<a href="#">
+					sns
+				</a>
+			</div>
+			<!--//sns-->
+			</div>
+		</header>
+	</div>
+</body>
+</html>
