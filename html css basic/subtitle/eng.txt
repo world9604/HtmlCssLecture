@@ -1,0 +1,64 @@
+Hello. My name is Tae-In Kim, who is in charge of the beginner class on HTML, CSS.
+My Korean name is Taein Kim,
+My English name is Max.
+You can call me Max.
+I'm not good at English.
+Nevertheless, I'd appreciate it if you listened with open arms.
+Let me introduce myself briefly.
+I majored in Oriental BioMedical Engineering,
+I worked as a full stack developer,
+A full stack developer is a developer who handles both the front-end and back-end.
+I’m currently working as an Android native developer.
+What we learn in class is HTML and CSS.
+It's important what you can make with HTML and CSS.
+Create a homepage like Google,
+You can create a homepage like Youtube.
+You can't just make all these things with Html and css.
+With just Html and css, we can only create information from our visible text and images and styles that make this information wonderful.
+So, html, css, and other things that are made of various technologies, we can call
+Web Application,
+Web documents,
+Website,
+home page
+We can call it these four.
+In the old days, web documents had a tendency.
+These days, it is more like a web application, with a variety of functions and services emerging.
+Web documents, Web applications talk about the Web, called the World Wide Web.
+The Internet is a global information space where people can share information through connected computers.
+The web is not an independent technology
+It's a technology that works with a lot of different technologies.
+These web applications allow servers to print information over the Internet to the computers we use.
+Here, information consists of HTML, CSS, and JAVASCRIPT.
+We can see this in the web browser.
+A server is just a computer.
+It’s a computer running middle ware, database, web server software.
+In our class, we will learn only html and css among these various skills.
+We will finally make this homepage through class.
+We will make a homepage that will be printed on the desktop and also on the mobile screen.
+I think you can make it if you're interested.
+Through this class, my goal is to make you have fun with html and css rather than to be good at handling html and css.
+So, next.
+Let me finish after learning about Html and Css.
+Html is an abbreviation for HyperText Markup Language.
+HyperText means that documents and documents are linked together.
+If I click a link on a webpage, which link will I go to?
+It means that the document is linked to the document.
+This type of document system is called hypertext.
+And that's why we call it WEB, where documents and documents, like a huge net, create a huge chunk of information.
+markup language is a language that specifies the structure of a document or data using tags.
+Tags are now used to represent the structure of the document.
+This system of tagging methods is called markup language.
+The framework of these tagging methods is called the markup language.
+The tag of the html also plays the same role.
+I expressed information through strong tag that I want to emphasize the World character.
+Css stands for Cascading Style Sheet.
+You don't have to try to understand Cascading yet.
+The focus here is on Style.
+CSS is in charge of style and design.
+So because html delivers information and Css provides style, we can create these web documents.
+Our class is open from 3 p.m. to 4:30 p.m. on Monday and Thursday in Madagascar time.
+This is my email.
+If you have any questions, please e-mail me here.
+Then I'll see you in class.
+bye bye.
+The End.
